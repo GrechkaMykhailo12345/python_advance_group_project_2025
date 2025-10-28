@@ -35,4 +35,7 @@ urlpatterns = [
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-
+admin.site.site_header = "Портал групи"
+admin.site.site_title = "Адмінка Сайту"
+admin.site.index_title = "Ласкаво просимо до панелі Порталу групи"
+admin.site.icon = ""
